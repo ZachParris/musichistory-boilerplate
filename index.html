@@ -4,9 +4,70 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-
+<nav>
+	<link class="navbar"><a link="#">View music |</a>
+	<link class="navbar"><a href="#">Add Music |</a>
+	<link class="navbar"><a href="#">Profile</a>
+</nav>
 <body>
+<form class="left_col">
+	
+	<section class="first">
+    <p>Song length:</p>
+	<input type="range" placeholder="Song Length"><br><br>
+
+
+	<div class="artist">
+	<label for="artist">Artist:</label>
+	<select id="option" name="Option:">
+	<option value="pixies">Pixies</option>
+	<option value="pink_floyd">Pink Floyd</option>
+	<option value="arctic_monkeys">Arctic Monkeys</option>
+	<option value="war_on_drugs">War On Drugs</option>
+	<option value="kings_of_leon">Kings Of Leon</option><br>
+	</select>
+	<br><br>
+	</div>
+
+	<label for="album">Album:</label>
+	<select id="option" name="Option:">
+	<option value="surfer_rosa">Surfer Rosa</option>
+	<option value="animals">Animals</option>
+	<option value="am">AM</option>
+	<option value="lost_in_the_dream">Lost In The Dream</option>
+	<option value="come_around_sundown">Come Around Sundown</option></select>
+	<br><br>
+
+
+	<label for="genre">Genre:</label><br><br>
+	<div class="primary_col clearfix">
+	<input type="checkbox" id="rock" value="Rock"><label for="rock">Rock</label>
+      <input type="checkbox" id="classical" value="classical"><label for="classical">Classical</label><br>
+      <input type="checkbox" id="pop" value="pop"><label for="pop">Pop </label>
+      <input type="checkbox" id="jazz" value="jazz"><label for="jazz">Jazz</label><br>
+      <input type="checkbox" id="blues" value="blues"><label for="blues">Blues</label>
+      <input type="checkbox" id="hip_hop" value="hip_hop"><label for="hip_hop">Hip Hop</label>
+  </div><br>
+  <button type="submit" class="button">Filter</button>
+  </section>
+</form>
+
+
+	<div class="second">
+		<h2>Song Name</h2>
+      <p>Artist Name | Album Name | Genre</p>
+      <h2>Song Name</h2>
+      <p>Artist Name | Album Name | Genre</p>
+      <h2>Song Name</h2>
+      <p>Artist Name | Album Name | Genre</p>
+      <h2>Song Name</h2>
+      <p>Artist Name | Album Name | Genre</p>
+  </div>
+  </div>
+
+</section>
 
 
 </body>
