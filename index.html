@@ -6,39 +6,42 @@
   <title>Music History</title>
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<nav>
-	<link class="navbar"><a href="#">View music |</a>
-	<link class="navbar"><a href="#">Add Music |</a>
-	<link class="navbar"><a href="#">Profile</a>
-</nav>
+
+
 <body>
-<form class="left_col">
-	
+	<nav>
+		<ul>
+			<li class="navbar"><a href="#" id="linkList">List music | </a></li>
+			<li class="navbar"><a href="#" id="linkAdd">Add Music</a></li>
+		</ul>
+	</nav>
+	<div id="mainView">
 	<section class="first">
     <p>Song length:</p>
 	<input type="range" placeholder="Song Length"><br><br>
 
 
 	<div class="artist">
-	<label for="artist">Artist:</label>
-	<select id="option" name="Option:">
-	<option value="pixies">Pixies</option>
-	<option value="pink_floyd">Pink Floyd</option>
-	<option value="arctic_monkeys">Arctic Monkeys</option>
-	<option value="war_on_drugs">War On Drugs</option>
-	<option value="kings_of_leon">Kings Of Leon</option><br>
-	</select>
-	<br><br>
+		<label for="artist">Artist:</label>
+		<select id="option" name="Option:">
+		<option value="pixies">Pixies</option>
+		<option value="pink_floyd">Pink Floyd</option>
+		<option value="arctic_monkeys">Arctic Monkeys</option>
+		<option value="war_on_drugs">War On Drugs</option>
+		<option value="kings_of_leon">Kings Of Leon</option><br>
+		</select>
+		<br><br>
 	</div>
-
-	<label for="album">Album:</label>
-	<select id="option" name="Option:">
-	<option value="surfer_rosa">Surfer Rosa</option>
-	<option value="animals">Animals</option>
-	<option value="am">AM</option>
-	<option value="lost_in_the_dream">Lost In The Dream</option>
-	<option value="mechanical_bull">Mechanical Bull</option></select>
-	<br><br>
+	<div>
+		<label for="album">Album:</label>
+		 <select id="option" name="Option:">
+		<option value="surfer_rosa">Surfer Rosa</option>
+			<option value="animals">Animals</option>
+		<option value="am">AM</option>
+			<option value="lost_in_the_dream">Lost In The Dream</option>
+		<option value="mechanical_bull">Mechanical Bull</option></select>
+		<br><br>
+	</div>
 
 
 	<label for="genre">Genre:</label>
@@ -54,23 +57,31 @@
   </div><br>
   <button type="submit" class="filterButt">Filter</button>
   </section>
-</form>
-
-
-	<div class="second" id="songList">
-		<!-- h2>Song Name</h2>
-      <p>Artist Name | Album Name | Genre</p>
-      <h2>Song Name</h2>
-      <p>Artist Name | Album Name | Genre</p>
-      <h2>Song Name</h2>
-      <p>Artist Name | Album Name | Genre</p>
-      <h2>Song Name</h2>
-      <p>Artist Name | Album Name | Genre</p> -->
-  </div>
-  </div>
-
-</section>
-
+	<div class="second" id="songList"></div>
+</div>
+      <div  id="addSongs">
+      	<section>Song Name:</section>
+      		<input type="text" id="songName">
+      	<section>Artist:</section>
+      		<input type="text" id="artist">
+      	<section>Album:</section>
+      		<input type="text" id="album">
+      	<button type="" id="addToList">Add</button>
+  	   </div>
+  	 
 <script type="text/javascript" src="songs.js"></script>
 </body>
 </html>
+
+
+<!-- //MUSIC HISTORY 3 -->
+<!-- In the navigation bar, make sure you have two links labeled "List Music", and "Add Music".
+Add a DOM element that contains some input fields for the user to enter in the name of a song, the artist for the song, and the album. You do not need to enclose them in a <form> element because we're not actually submitting this form anywhere.
+Add a <button> element at the bottom of the input fields labeled "Add".
+The input fields and the add button make up the Add Music View.
+
+The existing view - the combination of the filter form and the song list - will be referred to as the List Music View.
+The Add Music View should not appear when the user first visits your page. The song list with the corresponding filter form should be visible.
+When the user clicks on "Add Music" in the navigation bar, the List Music View should be hidden, and the Add Music View should be shown (see example wireframe).
+When the user clicks on "List Music" in the naviation bar, the Add Music View should be hidden, and the List Music View should be shown (see example wireframe).
+Once the user fills out the song form and clicks the add button, you should collect all values from the input fields, add the song to your array of songs, and update the song list in the DOM. -->
