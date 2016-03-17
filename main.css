@@ -1,10 +1,63 @@
-body {
-	background-color: white;
-	display: inline;
-	
+.visible {
+  display: block;
 }
 
-.left_col {
+.hidden {
+  display: none;
+}
+.mainView {
+ 	margin: 10px 20px;
+}
+body {
+	margin: 30px;
+	padding-right: 5em;
+}
+
+nav {
+	background-color: #FFB4B0;
+	border: 2px solid black;
+	padding: 1em 2em 1em 2em;
+	margin-bottom: 1em;
+	width: 84%;
+
+}
+nav ul {
+	list-style-type: none;
+	display: inline;
+}
+nav ul li {
+	display: inline;
+}
+.first {
+	border: 2px solid;
+	float: left;
+	background-color: #4DD7FA ;
+ 	width: 20%;
+ 	height: 400px;
+ }
+.second {
+	background-color: #FEFAC0;
+	border: 2px solid;
+	float: left;
+	width: 55%;
+	padding-left: 3em;
+	padding-right: 5em;
+	height: 400px;
+	margin-left: 1em;
+	overflow: scroll;
+}
+.filterButt {
+	border: 2px solid;
+	background-color: #c8c8c8;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+
+/*body {
+	background-color: white;
+}
+
+.filterForm {
 	margin: 10px 10px;
 
 }
@@ -12,14 +65,21 @@ body {
 nav {
 	background-color: #FFB4B0;
 	border: 2px solid black;
-	padding: 1em 3em 1em 0;
+	padding: 1em 3em 1em 0em;
 	border-width: 60%;
 	margin-left: 10px;
 	padding-left: 10px;
 	margin-right: 5em;
 
 	}
+nav ul {
+	list-style-type: none;
+	display: inline;
+}
 
+nav ul li {
+	display: inline;
+}
 
 .first {
 	border: 2px solid;
@@ -40,6 +100,7 @@ nav {
 	padding-right: 5em;
 	height: 400px;
 	margin-left: 1em;
+	overflow: scroll;
 }
 
 .filterButt {
@@ -58,4 +119,4 @@ nav {
 	font-style: italic;
 	display: inline;
 }
-
+*/
