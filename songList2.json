@@ -1,0 +1,23 @@
+{
+  "songs": [{
+    "songName": "Another Brick In The Wall",
+    "artist": "Pink Floyd",
+    "album": "The Wall",
+    "genre": "Classic Rock"
+  }, {
+    "songName": "Welcome To The Jungle",
+    "artist": "Guns & Roses",
+    "album": "Appetite For Destruction",
+    "genre": "Classic Rock"
+  }, {
+    "songName": "Ironic",
+    "artist": "Alanis Morisette",
+    "album": "Jagged Little Pill",
+    "genre": "90's"
+  }, {
+    "songName": "Bone Machine",
+    "artist": "Pixies",
+    "album": "Surfer Rosa",
+    "genre": "Indy Rock"
+  }]
+}

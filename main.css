@@ -1,3 +1,82 @@
+/*//Nav bar Styling
+*/
+
+nav {
+	background-color: #FFB4B0;
+	border: 2px solid black;
+	padding: 1em 2em 1em 2em;
+	margin-bottom: 1em;
+	width: 89%;
+}
+
+nav ul {
+	list-style-type: none;
+	display: inline;
+}
+
+nav li {
+	margin: 10px;
+	padding: 5px;
+
+}
+
+/*//Body Styling
+*/
+
+.mainView {
+ 	margin: 10px 20px;
+}
+
+body {
+	margin: 30px;
+	padding-right: 5em;
+}
+
+nav ul li {
+	display: inline;
+}
+
+
+.filterOptions {
+	border: 2px solid;
+	text-align: center;
+	float: left;
+	background-color: #4DD7FA ;
+	padding: 1em;
+ 	width: 20%;
+ 	height: 436px;
+ }
+
+ /*.filterOptions div {
+ 	border: 1px solid black;
+ 	border-radius: 10px;
+ 	margin-top: 5px
+ }*/
+
+
+.trackList {
+	background-color: #FEFAC0;
+	border: 2px solid;
+	float: left;
+	width: 55%;
+	padding: 2em 4em 0 3em;
+	height: 436px;
+	margin-left: 1em;
+	overflow: scroll;
+}
+
+.filterButt {
+	border: 1px solid;
+	width: 100px;
+	background-color: #c8c8c8;
+	border-radius: 10px;
+	padding: 0 auto;
+	font-weight: bold;
+}
+
+/*//Other Styling
+*/
+
 .visible {
   display: block;
 }
@@ -5,118 +84,29 @@
 .hidden {
   display: none;
 }
-.mainView {
- 	margin: 10px 20px;
-}
-body {
-	margin: 30px;
-	padding-right: 5em;
-}
 
-nav {
-	background-color: #FFB4B0;
+.thisTrack {
 	border: 2px solid black;
-	padding: 1em 2em 1em 2em;
-	margin-bottom: 1em;
-	width: 84%;
-
+	text-align: center;
+	margin: 10px;
 }
-nav ul {
-	list-style-type: none;
-	display: inline;
+#moreTracks {
+	display: block;
+	width: 40%;
 }
-nav ul li {
-	display: inline;
-}
-.first {
-	border: 2px solid;
-	float: left;
-	background-color: #4DD7FA ;
- 	width: 20%;
- 	height: 400px;
- }
-.second {
-	background-color: #FEFAC0;
-	border: 2px solid;
-	float: left;
-	width: 55%;
-	padding-left: 3em;
-	padding-right: 5em;
-	height: 400px;
-	margin-left: 1em;
-	overflow: scroll;
-}
-.filterButt {
-	border: 2px solid;
-	background-color: #c8c8c8;
-	margin-left: 30px;
-	border-radius: 10px;
-}
-
-/*body {
-	background-color: white;
-}
-
-.filterForm {
-	margin: 10px 10px;
-
-}
-
-nav {
-	background-color: #FFB4B0;
-	border: 2px solid black;
-	padding: 1em 3em 1em 0em;
-	border-width: 60%;
-	margin-left: 10px;
-	padding-left: 10px;
-	margin-right: 5em;
-
-	}
-nav ul {
-	list-style-type: none;
-	display: inline;
-}
-
-nav ul li {
-	display: inline;
-}
-
-.first {
-	border: 2px solid;
-	float: left;
-	background-color: #4DD7FA ;
- 	width: 20%;
- 	height: 400px;
- 	padding-left: 5px;
- 	margin-right: 1em;
-}
-
-.second {
-	background-color: #FEFAC0;
-	border: 2px solid;
-	float: left;
-	width: 55%;
-	padding-left: 3em;
-	padding-right: 5em;
-	height: 400px;
-	margin-left: 1em;
-	overflow: scroll;
-}
-
-.filterButt {
-	border: 2px solid;
-	background-color: #c8c8c8;
-	font-size: 1em;
-	margin-left: 30px;
+#moreBtn {
+	border: 1px solid;
 	width: 100px;
-	height: 30px;
+	background-color: #c8c8c8;
 	border-radius: 10px;
-	
+	padding: 0 auto;
+	font-weight: bold;
+	margin: 2em auto;
 
 }
-#genreSel {
-	font-family: sans-serif;
-	font-style: italic;
-	display: inline;
+h5 {
+	margin: 10px;
 }
-*/
+.delButton {
+	margin-bottom: 8px;
+}

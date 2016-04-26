@@ -1,0 +1,18 @@
+{
+	"songs": [{
+		"songName": "Work On Me",
+		"artist": "Kings Of Leon",
+		"album": "Mechanical Bull",
+		"genre": "Rock"
+	}, {
+		"songName": "Legs",
+		"artist": "ZZTop",
+		"album": "Eliminator",
+		"genre": "Classic Rock"
+	}, {
+		"songName": "The Logical Song",
+		"artist": "Supertramp",
+		"album": "Breakfast In America",
+		"genre": "90's"
+	}]
+}
