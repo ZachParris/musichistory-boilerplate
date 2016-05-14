@@ -1,0 +1,40 @@
+@import "mixins";
+@import "colors";
+
+.filterOptions {
+	border: $my-border ;
+	text-align: center;
+	float: left;
+	background-color: $my-filter-color ;
+	padding: 1em;
+ 	width: 20%;
+ 	height: 436px;
+.filterButt {
+	border: $my-border;
+	width: 100px;
+	background-color: $my-button-color;
+	border-radius: 10px;
+	padding: 0 auto;
+	font-weight: bold;
+ }
+
+
+}
+
+
+
+// nav {
+//   ul {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+//   }
+
+//   li { display: inline-block; }
+
+//   a {
+//     display: block;
+//     padding: 6px 12px;
+//     text-decoration: none;
+//   }
+// }

@@ -1,0 +1,8 @@
+@import "mixins";
+@import "colors";
+nav {
+	background-color: $my-nav-color;
+	border: $my-border;
+	margin-bottom: 1em;
+	width: 76%;
+}
