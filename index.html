@@ -4,14 +4,16 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Music History</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 
-<body>
-    <nav id="navBar">
-        <ul>
+<body class="container">
+    <nav id="navbar navbar">
+        <ul class="nav nav-tabs">
             <li class="navbar"><a href="#" id="linkList">List music</a></li>
             <li class="navbar"><a href="#" id="linkAdd">Add Music</a></li>
         </ul>
@@ -19,7 +21,7 @@
 
     <div id="mainView">
 
-        <section class="filterOptions">
+        <section class="options col-md-3 filterOptions">
             <p>Song length:</p>
             <input type="range" placeholder="Song Length"><br><br>
 
@@ -61,11 +63,11 @@
             <button type="submit" class="filterButt">Filter</button>
         </section>
 
-        <div class="trackList" id="songList"></div>
+        <div class="trackList col-md-9" id="songList"></div>
     </div>
 
     <div id="moreTracks" class="container">
-        <button type="" id="moreBtn" class="col-12-sm">More Tracks</button>
+        <button type="" id="moreBtn" class="col-md-9">More Tracks</button>
     </div>
     <div id="addSongs">
         <section>Song Name:</section>
@@ -79,9 +81,11 @@
         <button type="" id="addToList">Add</button>
     </div>
 
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="songs-xhr.js"></script> -->
-    <script type="text/javascript" src="songs.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascripts/songs.js"></script>
 </body>
 
 </html>

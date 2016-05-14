@@ -62,13 +62,13 @@ $(document).ready(function() {
               $("#songList").append(`<div id='${i.id}' class='thisTrack'><h3>${i.songName}</h3><h5>${i.artist}</h5><h5>${i.album}</h5><h5>${i.genre}</h5><button type="" class="delButton">delete</button></div>`)
           })
           pushTracks();
-      }
+      };
 
     function defaultView() {
         $("#mainView").show();
         $("#moreTracks").show();
         $("#addSongs").hide();
-    }
+    };
 
     var clearInputs = function() {
         $("#songName").val("");

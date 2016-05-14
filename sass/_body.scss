@@ -1,0 +1,41 @@
+@import "mixins";
+@import "colors";
+
+body {
+	margin: 30px;
+	padding-right: 5em;
+}
+
+.trackList {
+	background-color: $my-body-color;
+	border: $my-border;
+	// float: left;
+	width: 55%;
+	padding: 1em 4em 0 3em;
+	height: 436px;
+	margin-left: 1em;
+	overflow: scroll;
+}
+
+#moreTracks {
+	display: block;
+	width: 40%;
+}
+#moreBtn {
+	border: $my-border;
+	width: 100px;
+	background-color: $my-button-color;
+	border-radius: 10px;
+	padding: 0 auto;
+	font-weight: bold;
+	margin: 2em auto;
+
+}
+
+h5 {
+	margin: 10px;
+}
+.delButton {
+	margin-bottom: 8px;
+	background-color: $my-button-color;
+}

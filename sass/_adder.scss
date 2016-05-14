@@ -1,0 +1,15 @@
+@import "mixins";
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.thisTrack {
+	border: $my-border;
+	text-align: center;
+	margin: 10px;
+}
