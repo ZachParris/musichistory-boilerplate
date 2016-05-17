@@ -1,18 +1,36 @@
 {
-	"songs": [{
-		"songName": "Work On Me",
-		"artist": "Kings Of Leon",
-		"album": "Mechanical Bull",
-		"genre": "Rock"
-	}, {
-		"songName": "Legs",
-		"artist": "ZZTop",
-		"album": "Eliminator",
-		"genre": "Classic Rock"
-	}, {
-		"songName": "The Logical Song",
-		"artist": "Supertramp",
-		"album": "Breakfast In America",
-		"genre": "90's"
-	}]
+	"songs": {
+		"song1": {
+			"title": "I Can't Hear You",
+			"artist": "The Dead Weather",
+			"album": "Sea Of Cowards"
+		},
+		"song2":{
+			"title": "Medicine",
+			"artist": "Grace Potter",
+			"album": "Grace Potter and the Nocturnals"
+			},
+		"song3":{
+			"title": "Work On Me",
+			"artist": "Kings Of Leon",
+			"album": "Mechanical Bull"
+		},
+		"song4": {
+			"title": "Make It Rain",
+			"artist": "Tom Waits",
+			"album": "Real Gone"
+		},
+		"song5":{
+			"title": "Seprerator",
+			"artist": "Radihead",
+			"album": "In Rainbows"
+			},
+		"song6":{
+			"title": "Loopers",
+			"artist": "Ramsay Midwood",
+			"album": "Larry Buys A Lighter"
+		}
+	}
 }
+
+
